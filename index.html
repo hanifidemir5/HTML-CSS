@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta property="og:title" content="A brief description">
+        <meta property="og:type" content="website">
+        <meta property="og:image" content="logo.png">
+        <meta property="og:description" content="A brief description">
+        <meta property="og:url" content="https://127.0.0.1\littlelemon">
+        <link rel="stylesheet" href="css/styles.css">
+        
+    </head>
+
+    <body>
+        <header>
+            <img src="logo.png">
+        </header>
+        <nav>
+            
+        </nav>
+
+        <main>
+            <h1>Nabar brom</h1>
+            
+        <div>
+            <p>alpha</p>
+        </div>
+        <p>beta</p>
+            <form action="POST">
+                <div>
+                    <label for="user_first_name">First Name</label><br>
+                    <input type="text" id="user_first_name" name="user_first_name" placeholder="First Name" required>
+                </div>
+                <div>
+                    <label for="user_last_name">Last Name</label><br>
+                    <input type="text" id="user_last_name" name="user_last_name" placeholder="Last Name" required>
+                </div>
+                <div>
+                    <label for="user_email">E-mail</label><br>
+                    <input type="email" id="user_email" name="user_email" placeholder="E-mail">
+                </div>
+                <div>
+                    <label for="user_password">password</label><br>
+                    <input type="password" id="user_password" name="user_password" required minlength="8">
+                </div>
+                <div>
+                    <label for="user_confirm_password">Confirm Password</label><br>
+                    <input type="password" name="user_confirm_password" id="user_confirm_password" required minlength="8">
+                </div>
+                <div>
+                    <button type="submit">Sign Up</button>
+                </div>
+            </form>
+            <style>
+                input:focus:invalid
+                {
+                    border: 2px solid rebeccapurple;
+                }
+            </style>
+        </main>
+        <footer>
+            <p>footer</p>
+        </footer>
+
+        <script src="js/script.js"></script>
+    </body>
+
+</html>

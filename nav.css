@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: stretch;
+    background-color: #0f4a;
+}
+.container li{
+    list-style-type: none;
+}
+.container a{
+    display: inline-block;
+    padding: 25px;
+    margin: 0 25px;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+}
+.container a:hover{
+    background-color: lightsteelblue;
+}
+
+.icon{
+    padding: 0.8rem;
+}
+
+.searchBox{
+    border: 0;
+    flex: 1;
+}
+
+.searchButton{
+    color: white;
+    background:#0f4a ;
+    border: 0;
+    border-radius: 8px;
+    padding: 0.8rem;
+}
